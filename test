@@ -1,4 +1,48 @@
-.bodybg,.content,.navbar,.textareabg  {background: #000;}
-a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration:none!important;color:#707070!important;}
-h3.left-menu-text{background:#000!important;color:#707070!important}
-div.left-menu {border:none;}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");body {font-family: 'Montserrat', sans-serif;}
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#e4001d!important;}
+.pc-menu {display:none}
+#footer{display:none;}
+.hamburger-menu {display: block !important;position: fixed;top: 10%;left:62%;}
+.navbar {width:0%;background:#000;}
+.menu__box {width:auto;height:auto;padding:50px;margin:10px;border:1px solid #590002;background:#000}
+.menu__item {font-size:10px;font-weight: bold;background:#000;opacity: 0.8;}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+background: #e4001d;}
+
+[href="//beon.fun/p/avatars"],[href="//mrazobast.beon.fun/friends-activities/"],[href="//beon.fun/whowhere"],[href="//beon.fun/communities"],[href="//beon.fun/roleplays"],[href="//beon.fun/random"],[href="//beon.fun/tests"],[href="//beon.fun/polls"],[href="//beon.fun/duels"],[href="//beon.fun/search"],[href="//beon.fun/horoscope"],[href="//beon.fun/photoeditor"],[href="//app.beon.fun"],[href="//beon.fun/rules/"],[href="//beon.fun/faq/"],[href="https://beon.fun/2048"] {display:none}
+
+div#app {width:70%;margin-left:5%}
+.bodybg {background: url(https://i.ibb.co/cNhr0TZ/34.gif)no-repeat right top fixed;background-color:#000;background-size:38%}
+p {margin-top: 0;margin-bottom: 0;}
+.textareabg,.comment-box h2,.comment-box__message-partial{text-align:right;}
+.post-title-date+span {display:none;}
+.datebg{display:none}
+a.navbar-brand {font-size: 0px;background: url(https://i.ibb.co/GQdzS1J/6.png) no-repeat center;background-size: contain;width: 50px;height: 50px;transition: .3s;display: block !important;position: fixed;top: 2.5%;left:61.3%;}
+a.navbar-brand:hover {font-size: 0px;background: url(https://i.ibb.co/HGH4mfy/43.png) no-repeat center;background-size: contain;width: 50px;height: 50px;transition: .3s}
+.text-center+p,.text-center+div {display: none;}
+.m2 {display:none}
+[href="//mrazobast.beon.fun/birthdays/"] {display:none}
+[src="/i/user.png"] {display:none}
+[src="/i/blog.png"] {display:none}
+
+.pagination-goto {display:none;}
+.pagination a {padding-left:10px;font-size:10px;font-weight:bolder}
+.pagination {font-size: 0;}
+
+.post-avatar {border:1px solid #590002;padding:10px}
+.left-menu {display:none}
+.row {margin-top:10px;margin-bottom:10px}
+.post-text, .comment-text{background: linear-gradient(#590002, #000);border:1px solid #590002;padding:50px}
+.textareabg,.alert-success {background: linear-gradient(#590002, #000);border:1px solid #590002;padding:50px}
+.blog_total_counter{display:none}
+.content h1{font-size:10px;text-align:right;padding:10px;}
+div.crumbs {font-size:30px;background:#000;margin-left:0%;width:80%;}
+.left-menu__friends,.left-menu__friends_offline,.left-menu__friends_online,.user:before,.post-title-date+a,.postsiblings,.py-4+.crumbs,.flag,.post-title-date {display:none;}
+
+ul {list-style-type:none;}
+[href="#footer"] { font-size: 0px;}
+
+.post-title  {font-size: 300%;font-weight: bold;transition: .3s;background: #e4001d;background: -webkit-linear-gradient(to right, #e4001d 5%, #590002 100%);background: -moz-linear-gradient(to right, #e4001d 5%, #590002 100%);background: linear-gradient(to right, #e4001d 5%, #590002 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.post-title:hover{margin-left:1%;transition: .3s;background: #590002;background: -webkit-linear-gradient(to right, #590002 5%, #e4001d 100%);background: -moz-linear-gradient(to right, #590002 5%, #e4001d 100%);background: linear-gradient(to right, #590002 5%, #e4001d 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.user {font-size:10px;font-weight: bold;}
