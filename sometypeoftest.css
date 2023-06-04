@@ -6,7 +6,9 @@ color:#e4001d!important;}
 .hamburger-menu {display: block !important;position: fixed;top: 10%;left:62%;}
 .navbar {width:0%;background:#000;}
 .menu__box {width:auto;height:auto;padding:50px;margin:10px;border:1px solid #590002;background:#000}
-.menu__item {font-size:10px;font-weight: bold;background:#000;opacity: 0.8;}
+.menu__item {
+  font-size:10px;font-weight: bold;background:#000;opacity: 0.8;
+}
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
 background: #e4001d;}
 
